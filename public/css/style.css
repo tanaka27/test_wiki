@@ -10,7 +10,6 @@ body {
     background-color: #f0f2f5;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
 }
 
 header {
@@ -20,16 +19,21 @@ header {
     text-align: center;
 }
 
-header nav a {
+header nav a, header nav button {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
 }
 
-header nav a:hover {
+header nav a:hover, header nav button:hover {
     text-decoration: underline;
 }
 
+#logout-button{
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 15px;
+    padding: 0;
+}
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -64,6 +68,7 @@ button {
     cursor: pointer;
 }
 
+
 button:hover {
     background-color: #218838;
 }
@@ -87,6 +92,27 @@ li a {
 
 li a:hover {
     text-decoration: underline;
+}
+/* メッセージ表示部分のスタイル */
+.alert {
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+.alert-fail{
+    background-color: #ecb59f;
+    color: #922727;
+    border: 1px solid #ecb793;
 }
 
 footer {

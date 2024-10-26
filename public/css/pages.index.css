@@ -1,0 +1,88 @@
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.page-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+.no-pages {
+    text-align: center;
+    font-size: 1.2em;
+    color: #777;
+}
+
+.pages-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.page-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.page-item:hover {
+    background-color: #e9ecef;
+}
+
+.page-link {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.page-link:hover {
+    color: #0056b3;
+}
+
+.page-actions {
+    margin-left: 10px;
+}
+
+.edit-link {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-link:hover {
+    background-color: #218838;
+}

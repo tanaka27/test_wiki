@@ -1,0 +1,40 @@
+/* アコーディオンの基本スタイル */
+.accordion-toggle {
+    cursor: pointer;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.accordion-toggle.open {
+    background: #e9ecef;
+}
+
+.accordion-content {
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.category-item {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
